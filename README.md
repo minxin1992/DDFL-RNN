@@ -6,12 +6,12 @@ We use pytorch to implement our method.
 - Torch version:  '1.0.1'
 - Python version: '3.8'
 ## A quick start to run the codes:
-Training:
+# Training:
 "
 'DDPL-RNN.py', './data/sample_train_cp_data.csv', './data/sample_test_cp_data.csv', 'CP_diag_rec', 1, 1
 The above command will train our model based on 100 patients' sample data
 "
-Test:
+# Test:
 "
 'DDPL-RNN.py', './data/sample_train_cp_data.csv', './data/sample_test_cp_data.csv', 'CP_diag_rec', 1, 0
 We just need to change the mode flag from 1 to 0. The performance of the model on the validation set will be printed out.
